@@ -1,7 +1,10 @@
 import React from 'react';
 
-export function Landing(){
+export function Landing() {
     return (
-        <h2>Landing</h2>
-    )
+        <div style={{ textAlign: 'center' }}>
+            <h1>Emaily!</h1>
+            Collect feedback from your users
+        </div>
+    );
 }
