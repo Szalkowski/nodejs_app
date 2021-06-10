@@ -1,4 +1,4 @@
-const passport = require('passport');
+const passport = require('services/passport');
 const GoogleStrategy = require('passport-google-oauth20').Strategy;
 const mongoose = require('mongoose');
 const keys = require('../config/keys');
